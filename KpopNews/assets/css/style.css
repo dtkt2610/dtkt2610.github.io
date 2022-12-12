@@ -1,0 +1,408 @@
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height:1.5;
+    font-weight: 400;
+}
+.container{
+    max-width: 1134px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    padding: 0  ;
+    margin: 0;
+}
+/* ==============================Header ===========================*/
+#header{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #000000;
+}
+.logo{
+    
+    max-width: 100%;
+}
+.logo img{
+    align-items:center;
+}
+form.search{
+    /* display: flex; */
+    position: relative;
+    /* background-color: #131619; */
+}
+form.search input{
+    /* position: relative; */
+    background-color: #124b85;
+    height: 42px;
+    max-width: 245px;
+    border: none;
+    outline: none;
+    color: #a2a1a1;
+    padding: 9px 42px 9px 15px;
+    margin-right: 0px;
+}
+form.search button{
+    position: absolute;
+    right: 0px;
+    margin-left: auto;
+    background-color: #124b85;
+    color: #a2a1a1;
+    padding: 9px 12px;
+    border: none;
+    outline: none;
+}
+form.responsive-search{
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+} 
+form.responsive-search input{
+    background-color: #fcfcfc;
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fcfcfc;
+    padding: 10px;
+    margin-right: 0px;
+}
+body{
+    position: relative;
+}
+.responsive-main-menu li:first-child{
+    margin-top: 95px;
+}
+.responsive-main-menu{
+    z-index: 10;
+    text-align: center;
+    display: none;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    background-color: #23282d;
+    
+}
+.responsive-main-menu li a{
+    display: block;
+    padding: 18px;
+    color: #eeeeee;
+    text-decoration: none;
+}
+.responsive-main-menu li:hover a{
+    color: #4db2ec;
+}
+.nav-toggle i{
+    display: none;
+    color: #eeeeee;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.25s ;
+}
+.nav-toggle-search i{
+    display: none;
+    color: #eeeeee;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.25s ;
+}
+.nav-close-toggle i{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #eeeeee;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 25px;
+    font-weight: bold;
+    transition: all 0.25s ;
+}
+
+ul.main-menu{
+    display: flex;
+    margin-top: 0px;
+    padding: 6px;
+    padding-left: 0px;
+    /* display: none; */
+}
+ul.main-menu li a{
+    padding-left: 21px;
+    padding-right: 21px;
+    color: #eeeeee;
+}
+ul.main-menu li:first-child a{
+    padding-left:0px;
+}
+ul.main-menu li a:hover{
+    color: #4db2ec;
+    text-decoration: none;
+}
+.container-1{
+    border-right: 10px solid #ff2d2d;
+    margin-top: 7px;
+}
+/* -----------------End header---------------------- */
+/* ============================== Featured-post ===========================*/
+#wp-featured-post{
+    display: block;
+    border-bottom: 2px solid #dadada;
+}
+.post-head h3{
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.post-head{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    background-color: #23282d;
+    color: #eeeeee;
+    display: inline-block;
+    padding: 4px 15px;
+}
+.post-list ul{
+    display: flex;
+    gap: 30px;
+}
+.list-featured-post li{
+    width: 33.33%;
+}
+
+.list-featured-post li img{
+    width: 100%;
+    height: auto;
+}
+.list-featured-post li:last-child img{
+    padding-right: 0px;
+}
+ul li .list-title{
+    text-transform: uppercase;
+    color: #5f5f5f;
+    word-spacing: 1px;
+}
+ul.list-featured-post li:hover .list-title{
+    text-decoration: none;
+    color: #343232;
+}
+ul.list-featured-post li:hover a img{
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+ul.list-featured-post li a.list-pic{
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+/*==============================End feature post =====================*/
+/* ------------------New post and sidebar------------- */
+/* --------------------New post  -------------------------*/
+#wp-content{
+    margin-top: 20px;
+    display: flex;
+    max-width: 1134px;
+    margin: 20px auto;
+}
+#new-post{
+    flex: 70%;
+    padding-right: 15px;
+}
+#sidebar{
+    flex: 30%;
+    padding-left: 15px;
+ }
+.post-head-1{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #fcfcfc;
+    /* display: inline-block; */
+    border-bottom: 2px solid #4db2ec;
+    
+}
+.post-head-1 h3{
+    font-size: 16px;
+    display: inline-block;
+    background-color: #4db2ec;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+}
+.post-thumb{
+    display: flex;
+}
+.post-thumb a img{
+    padding-right: 26px;
+}
+.post-title a{
+    margin-bottom: 20px;
+    font-size: 21px;
+    color: #111111;
+}
+.post-published .post-name{
+    font-size: 11px;
+    color: #111111;
+    margin-bottom: 15px;
+}
+.post-published .post-date{
+    font-size: 11px;
+    color: #aaaaaa;
+}
+.info .post-excerpt{
+    font-size: 13px;
+    color: #898989;
+    text-align: justify;
+}
+.post-list li{
+    padding-bottom: 38px;
+}
+.post-list li:last-child{
+    padding-bottom: 0px;
+}
+.post-list li:hover .info .post-title a{
+    color:#4db2ec;
+    text-decoration: none;
+}
+.post-published a.post-name:hover{
+    /* text-decoration: none; */
+    color: #4db2ec;
+}
+/*------------------- sidebar ---------------------*/
+.ads img{
+    margin-bottom: 40px;
+}
+.top-topic{
+    border-bottom: 2px solid #ff2d2d;
+}
+.top-topic h3{
+    display: inline-block;
+    color: #fcfcfc;
+    background-color: #ff2d2d;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    margin-bottom: -1px;
+}
+.list-topic ul li a{
+    color: #212121;   
+}
+.list-topic ul{
+    padding-top: 20px;
+}
+.list-topic ul li{
+    display: flex;
+    justify-content:space-between;
+}
+.list-topic li {
+    padding:6px 0px;   
+}
+.list-topic ul li span{
+    padding-right: 28px;
+}
+.list-topic ul li:hover a{
+    text-decoration: none;
+    color: #ff3b3b;
+}
+.list-topic ul li:hover span{
+    text-decoration: none;
+    color: #ff3b3b;
+}
+/* --------------------New post and sidebar------------------ */
+#footer{
+    margin-top: 80px;
+    background-color: #2e2f30;
+}
+/*.logo-footer img{
+    padding: 80px 55px 135px 0px;
+}*/
+.about-us{
+    padding: 52px 103px 85px 55px;
+}
+.about-us .box-head h3{
+    text-transform: uppercase;
+    color: #f6f6f6;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+.about-us .box-body p{
+    color: #f6f6f6;
+    font-size: 14px;
+    /* margin-bottom: 7px; */
+}
+.follow-us{
+   max-width: 33.33%;
+    padding: 52px 0px 132px 103px;
+}
+.follow-us .box-head h3{
+    
+    text-transform: uppercase;
+    color: #f6f6f6;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.follow-us .box-body ul {
+    display: flex;
+}
+.box-body ul li{
+    margin-right: 12px;
+}
+.box-body ul li a{
+    padding-right: 10px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    color: #eeeeee;
+    background-color: #434648;
+    position: relative;
+}
+.box-body ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.box-body ul li a:hover{
+    color: #4db2ec;
+}
+/* ====================End footer----------------- */
+/* ---------------------------------Wp-copyright---------------------------------- */
+#wp-copyright{
+    
+    color: #ffffff;
+    background-color: #222527;
+}
+.end-wp{
+    margin-bottom: 0px;
+}
+.end-wp p{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+.end-wp ul{
+    display: flex;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.end-wp ul li{
+    margin-right: 28px;
+}
+.end-wp ul li a{
+    color: #f3f3f3;
+}
+.end-wp ul li:hover a{
+    text-decoration: none;
+    color: #4db2ec;
+}
+.end-wp ul li:last-child{
+    margin-right: 10px;
+}
+

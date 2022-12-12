@@ -1,0 +1,68 @@
+
+
+/* ===============================TEXT================================== */
+/* --------------Align------------ */
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+/* --------------Transform------------ */
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+/* --------------Style------------ */
+.text-italic{
+    font-style: italic;
+}
+/* ==============================CLEAR-FIX================================= */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.justify-content-between
+{
+    justify-content:space-between;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
